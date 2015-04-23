@@ -88,7 +88,7 @@ On Windows, you may install [Git](http://git-scm.com/) and use the `Git Bash` sh
 Once you have created a SSH key, specify the key's path in the `authorize` property of your `Homestead.yaml` file.
 
 ### Configure Your Shared Folders
-c
+
 The `folders` property of the `Homestead.yaml` file lists all of the folders you wish to share with your Homestead environment. As files within these folders are changed, they will be kept in sync between your local machine and the Homestead environment. You may configure as many shared folders as necessary!
 
 To enable [NFS](http://docs.vagrantup.com/v2/synced-folders/nfs.html), just add a simple flag to your synced folder:
